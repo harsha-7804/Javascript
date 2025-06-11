@@ -10,7 +10,7 @@
 
 // console.warn("hello java script");
 
- //  data types And  variables
+//  data types And  variables
 
 // // data => information type
 
@@ -532,7 +532,7 @@ const fruits = ["apple", "banana", "grapes"];
 
 // Object (realworld entity )
 
-const car = { brand: "TATA", color: "black" }; // empty object
+// const car = { brand: "TATA", color: "black" }; // empty object
 
 // syntax to access prop
 // Dot Notation // Brackert Notation
@@ -639,4 +639,15 @@ const car = { brand: "TATA", color: "black" }; // empty object
 //   return cb(userName);
 // }
 
-// console.log(name("sameer", greet));
+// console.log(na,me("sameer", greet));
+let marks = [21, 70, 25, 28, 35, 56];
+// let newmarks = marks.map((item, index) => item + 3);
+// marks.map((item, index) => console.log(item + 3, index))
+// let filterdata = marks.filter((item, index) => item >= 25);
+// console.log(filterdata)
+// let findvalue = marks.find((item, index) => item >= 36);
+// console.log(findvalue)
+// let totalmarks = marks.reduce((prev, item) => prev + item, 0);
+// console.log(totalmarks)
+// let newmarks = marks.sort().reverse()
+// console.log(newmarks);
